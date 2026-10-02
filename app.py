@@ -18,9 +18,9 @@ def index():
     todos = response.data
 
     html = '<h1>Todos</h1><ul>'
+    html += '<a href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ">RickRoll</a>'
     for todo in todos:
         html += f'<li>{todo["name"]}</li>'
-        html += '<a href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ">RickRoll</a>'
     html += '</ul>'
 
     return html
