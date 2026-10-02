@@ -13,11 +13,13 @@ with open("foo.jpg", "wb") as f:
 '''
 
 for index, row in df.iterrows():
-    url = row["image_url"]
-    response = requests.get(url)
-
-    with open(f'plant_images/{index}.jpg', 'wb') as f:
-        f.write(response.content)
+    if index <= 28328:
+        continue
+    else:
+        url = row["image_url"]
+        response = requests.get(url)
+        with open(f'plant_images/{index}.jpg', 'wb') as f:
+            f.write(response.content)
 
 df['image_path'] = [f'images/{index}.jpg' for index in range(len(df))]
 df.to_csv("lookalikes_16_classes_dataset.csv")
