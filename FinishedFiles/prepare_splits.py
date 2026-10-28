@@ -29,7 +29,8 @@ def main():
     # Stratified split
     
     keep = df[["image_path", "label", species_col, "Invasive"]]
-    
+
+    #train, test notation
     train_df, temp_df = train_test_split(
         keep, test_size=0.30, train_size=0.70, stratify=keep["label"], random_state=SEED
     )

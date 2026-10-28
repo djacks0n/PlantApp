@@ -1,0 +1,9 @@
+invasive,native,invasive_acc,native_acc,invasive_called_native,native_called_invasive,pair_confusion_rate
+Ailanthus altissima,Rhus copallinum,0.9457,0.8777,4,10,0.0353
+Elaeagnus umbellata,Asimina triloba,0.9383,0.9702,4,2,0.0081
+Rubus phoenicolasius,Rubus occidentalis,0.9652,0.6667,0,5,0.0113
+Lonicera japonica,Campsis radicans,0.9202,0.917,2,2,0.0066
+Hedera helix,Parthenocissus quinquefolia,0.9309,0.9606,3,2,0.0072
+Persicaria perfoliata,Persicaria sagittata,0.9261,0.8448,2,4,0.0256
+Alliaria petiolata,Geum canadense,0.9702,0.9091,0,3,0.0051
+Ficaria verna,Packera aurea,0.971,0.9194,3,4,0.013

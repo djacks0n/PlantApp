@@ -1,0 +1,17 @@
+true \ predicted,Ailanthus altissima,Rhus copallinum,Elaeagnus umbellata,Asimina triloba,Rubus phoenicolasius,Rubus occidentalis,Lonicera japonica,Campsis radicans,Hedera helix,Parthenocissus quinquefolia,Persicaria perfoliata,Persicaria sagittata,Alliaria petiolata,Geum canadense,Ficaria verna,Packera aurea
+Ailanthus altissima,244,4,0,2,0,0,3,0,1,3,0,1,0,0,0,0
+Rhus copallinum,10,122,2,0,2,0,3,0,0,0,0,0,0,0,0,0
+Elaeagnus umbellata,2,1,289,4,0,0,8,1,0,2,0,0,0,0,0,1
+Asimina triloba,5,0,2,423,0,0,3,0,1,2,0,0,0,0,0,0
+Rubus phoenicolasius,0,1,1,1,388,0,3,1,0,2,1,0,3,0,1,0
+Rubus occidentalis,0,0,0,1,5,26,3,0,0,1,0,1,0,1,1,0
+Lonicera japonica,2,1,7,1,3,0,346,2,3,2,4,2,2,0,0,1
+Campsis radicans,5,0,1,3,1,0,2,210,1,3,1,1,0,1,0,0
+Hedera helix,1,0,1,1,1,0,4,0,202,3,0,0,1,1,2,0
+Parthenocissus quinquefolia,2,1,0,2,3,2,3,3,2,463,0,0,0,0,1,0
+Persicaria perfoliata,0,1,3,0,0,1,3,0,2,0,163,2,0,0,1,0
+Persicaria sagittata,0,0,0,0,0,0,4,0,0,0,4,49,0,0,1,0
+Alliaria petiolata,0,0,0,0,1,1,3,1,0,2,2,0,489,0,5,0
+Geum canadense,0,0,1,0,0,0,1,0,0,0,0,1,3,80,0,2
+Ficaria verna,0,0,0,0,1,0,0,0,2,0,1,1,3,1,402,3
+Packera aurea,0,0,0,0,0,0,1,0,0,0,0,0,5,0,4,114

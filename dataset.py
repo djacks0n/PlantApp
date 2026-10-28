@@ -16,23 +16,23 @@ from torchvision import transforms
 
 #invasive = even index & lookalike = odd index
 PAIRS = [
-    ("Ailanthus altissima", "Rhus copallinum"),          # 0, 1
-    ("Elaeagnus umbellata", "Asimina triloba"),          # 2, 3
-    ("Rubus phoenicolasius", "Rubus occidentalis"),      # 4, 5
-    ("Lonicera japonica", "Campsis radicans"),           # 6, 7
-    ("Hedera helix", "Parthenocissus quinquefolia"),     # 8, 9
-    ("Persicaria perfoliata", "Persicaria sagittata"),   # 10, 11
-    ("Alliaria petiolata", "Geum canadense"),            # 12, 13
-    ("Ficaria verna", "Packera aurea"),                  # 14, 15
+    ("Ailanthus altissima", "Rhus copallinum"), # 0, 1
+    ("Elaeagnus umbellata", "Asimina triloba"), # 2, 3
+    ("Rubus phoenicolasius", "Rubus occidentalis"), # 4, 5
+    ("Lonicera japonica", "Campsis radicans"),# 6, 7
+    ("Hedera helix", "Parthenocissus quinquefolia"), # 8, 9
+    ("Persicaria perfoliata", "Persicaria sagittata"), # 10, 11
+    ("Alliaria petiolata", "Geum canadense"), # 12, 13
+    ("Ficaria verna", "Packera aurea"),   # 14, 15
 ]
 
 CLASS_NAMES = [name for pair in PAIRS for name in pair]
 CLASS_TO_IDX = {name: i for i, name in enumerate(CLASS_NAMES)}
-print(CLASS_NAMES)
-print(CLASS_TO_IDX)
+#print(CLASS_NAMES)
+#print(CLASS_TO_IDX)
 NUM_CLASSES = len(CLASS_NAMES)
 
-CONFUSABLE_PAIRS = [(2 * i, 2 * i + 1) for i in range(len(PAIRS))]
+CONFUSABLE_PAIRS = [(2*i, 2*i + 1) for i in range(len(PAIRS))]
 INVASIVE_IDX = set(range(0, NUM_CLASSES, 2))
 SPLIT_DIR = Path("splits")
 
